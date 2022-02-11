@@ -16,7 +16,6 @@ namespace PlayMP3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            player.settings.setMode("loop", true);
             Application.Run(new PlayMP3());
         }
     }
